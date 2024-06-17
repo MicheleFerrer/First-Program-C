@@ -16,10 +16,22 @@ printf("and my favorite character is %c", 'D');
 return 0;  
 }*/
 
-int main(){
+/*int main(){
     int x = 6;
     int y = 4;
     int sum = x + y;
     printf("%d", sum);
     return 0;
+}*/
+
+int main(){
+    int length = 4;
+int width = 6;
+int area;
+area = length * width;
+
+printf("length is %d\n", length);
+printf("width is :%d\n");
+printf("area of the rectangle is : %d", area);
+return 0;
 }
