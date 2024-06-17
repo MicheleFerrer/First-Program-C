@@ -10,6 +10,7 @@
 
 int main( ){
   int myNumber = 50;
-printf("%d", myNumber);
+printf("my favorite number is %d" "\n", myNumber);
+printf("and my favorite character is %c", 'D');
 return 0;  
 }
