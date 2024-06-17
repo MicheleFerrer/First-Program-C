@@ -22,7 +22,7 @@ return 0;
     int sum = x + y;
     printf("%d", sum);
     return 0;
-}*/
+}
 
 int main(){
     int length = 4;
@@ -33,5 +33,20 @@ area = length * width;
 printf("length is %d\n", length);
 printf("width is :%d\n");
 printf("area of the rectangle is : %d", area);
+return 0;
+}
+*/
+// using data types to calculate the cost of different grocery items
+int main(){
+    // Create variables of different data types
+int items = 50;
+float cost_per_item = 9.99;
+float total_cost = items * cost_per_item;
+char currency = '$';
+
+// Print variables
+printf("Number of items: %d\n", items);
+printf("Cost per item: %.2f %c\n", cost_per_item, currency);
+printf("Total cost = %.2f %c\n", total_cost, currency);
 return 0;
 }
