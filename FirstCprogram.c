@@ -8,9 +8,18 @@
     return 0;
 }*/
 
+/*
 int main( ){
   int myNumber = 50;
 printf("my favorite number is %d" "\n", myNumber);
 printf("and my favorite character is %c", 'D');
 return 0;  
+}*/
+
+int main(){
+    int x = 6;
+    int y = 4;
+    int sum = x + y;
+    printf("%d", sum);
+    return 0;
 }
