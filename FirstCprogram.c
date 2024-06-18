@@ -50,6 +50,7 @@ int sum2 = sum1 + 20;
 int sum3 = sum1 + sum2;
 int sum4 = sum3;
 int time = 30;
+(time < 30) ? printf("time is less than 30\n") : printf("time is greater than or equal to 30\n");
 
 // Print variables
 printf("Number of items: %d\n", items);
@@ -75,5 +76,6 @@ if (time < 20){
 else{
     printf("you missed the alarm");
 }
+
 return 0;
 }
