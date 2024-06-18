@@ -48,6 +48,7 @@ float sum = (float) 9 / 4;
 int sum1 = 100 + 50;
 int sum2 = sum1 + 20;
 int sum3 = sum1 + sum2;
+int sum4 = sum3;
 
 // Print variables
 printf("Number of items: %d\n", items);
@@ -56,10 +57,13 @@ printf("Total cost = %.2f %c\n", total_cost, currency);
 printf("%d\n", sum3);
 printf("%.1f\n", sum);
 printf("%d\n", sum1 > sum2);
-if(sum1 >= sum3){
+if(sum1 == sum3){
     printf("sum1 is older");
-} else{
-    printf("sum1 is younger");
+} else if ( sum4 == sum3){
+    printf("sum1 and sum2 are not equal");
 }
+else{
+    printf("sum4 is older");
+    }
 return 0;
 }
