@@ -55,5 +55,6 @@ printf("Cost per item: %.2f %c\n", cost_per_item, currency);
 printf("Total cost = %.2f %c\n", total_cost, currency);
 printf("%d\n", sum3);
 printf("%.1f\n", sum);
+printf("%d\n", sum1 > sum2);
 return 0;
 }
