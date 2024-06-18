@@ -56,5 +56,10 @@ printf("Total cost = %.2f %c\n", total_cost, currency);
 printf("%d\n", sum3);
 printf("%.1f\n", sum);
 printf("%d\n", sum1 > sum2);
+if(sum1 >= sum3){
+    printf("sum1 is older");
+} else{
+    printf("sum1 is younger");
+}
 return 0;
 }
