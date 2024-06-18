@@ -52,6 +52,14 @@ int sum4 = sum3;
 int time = 30;
 (time < 30) ? printf("time is less than 30\n") : printf("time is greater than or equal to 30\n");
 
+
+int countdown = 5;
+ while (countdown > 0 ){
+    printf("%d\n", countdown);
+    countdown --;
+ }
+ printf("happy new year!\n");
+
 // Print variables
 printf("Number of items: %d\n", items);
 printf("Cost per item: %.2f %c\n", cost_per_item, currency);
