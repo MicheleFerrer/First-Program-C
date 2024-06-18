@@ -49,6 +49,7 @@ int sum1 = 100 + 50;
 int sum2 = sum1 + 20;
 int sum3 = sum1 + sum2;
 int sum4 = sum3;
+int time = 30;
 
 // Print variables
 printf("Number of items: %d\n", items);
@@ -60,10 +61,19 @@ printf("%d\n", sum1 > sum2);
 if(sum1 == sum3){
     printf("sum1 is older");
 } else if ( sum4 == sum3){
-    printf("sum1 and sum2 are not equal");
+    printf("sum1 and sum2 are not equal\n");
 }
 else{
     printf("sum4 is older");
     }
+
+if (time < 20){
+    printf("good morning");
+} else if (time == 30){
+    printf("just the right time");
+}
+else{
+    printf("you missed the alarm");
+}
 return 0;
 }
