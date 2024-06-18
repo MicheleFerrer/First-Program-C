@@ -45,11 +45,15 @@ float cost_per_item = 9.99;
 float total_cost = items * cost_per_item;
 char currency = '$';
 float sum = (float) 9 / 4;
+int sum1 = 100 + 50;
+int sum2 = sum1 + 20;
+int sum3 = sum1 + sum2;
 
 // Print variables
 printf("Number of items: %d\n", items);
 printf("Cost per item: %.2f %c\n", cost_per_item, currency);
 printf("Total cost = %.2f %c\n", total_cost, currency);
+printf("%d\n", sum3);
 printf("%.1f\n", sum);
 return 0;
 }
