@@ -50,6 +50,22 @@ int sum2 = sum1 + 20;
 int sum3 = sum1 + sum2;
 int sum4 = sum3;
 int time = 30;
+
+
+char name [] = "michele";
+name[0] = 'M';
+char length = sizeof(name) / sizeof(name[0]);
+int b;
+for (b = 0; b < length; b++){
+    printf("%c\n", name[b]);
+}
+
+
+
+
+
+
+
 int myNumbers [] = {25, 50, 75, 100};
 int p;
     for (p = 0; p < 5; p++){
