@@ -53,12 +53,12 @@ int time = 30;
 
 
 char name [] = "michele";
-name[0] = 'M';
 int length = sizeof(name) / sizeof(name[0]);
 int b;
 for (b = 0; b < length; ++b){
-    printf("%s", name);
+    printf("%c\n", name[b]);
 }
+return 0;
 
 
 
