@@ -64,7 +64,7 @@ for (b = 0; b < length; ++b){
 char sentence []= "my name is michele and i live in \"nyc\"";
 printf("%s\n", sentence);
 
-
+printf("%d\n", strcmp(name, sentence));
 
 
 int myNumbers [] = {25, 50, 75, 100};
