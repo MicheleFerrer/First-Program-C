@@ -58,10 +58,11 @@ int b;
 for (b = 0; b < length; ++b){
     printf("%c\n", name[b]);
 }
-return 0;
 
 
 
+char sentence []= "my name is michele and i live in \"nyc\"";
+printf("%s\n", sentence);
 
 
 
