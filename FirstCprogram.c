@@ -51,13 +51,20 @@ int sum3 = sum1 + sum2;
 int sum4 = sum3;
 int time = 30;
 int myNumbers [] = {25, 50, 75, 100};
-int i;
-    for (i = 0; i < 5; i++){
-        printf("%d\n", myNumbers[i]);
+int p;
+    for (p = 0; p < 5; p++){
+        printf("%d\n", myNumbers[p]);
     }
-    
+   
 
+int violet [2][3] = { {1, 4, 2}, {3, 6, 8} };
+int i, j;
 
+for(i = 0; i < 2; i++){
+    for(j=0; j < 3; j++){
+        printf("%d\n", violet[i][j]);
+    }
+}
 
 (time < 30) ? printf("time is less than 30\n") : printf("time is greater than or equal to 30\n");
 
