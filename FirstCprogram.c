@@ -86,6 +86,12 @@ for(i = 0; i < 2; i++){
 (time < 30) ? printf("time is less than 30\n") : printf("time is greater than or equal to 30\n");
 
 
+int misaAge = 2;
+int* ptr = &misaAge;
+
+printf("Misa's age is: %d\n", *ptr);
+
+
 int countdown = 5;
  while (countdown > 0 ){
     printf("%d\n", countdown);
