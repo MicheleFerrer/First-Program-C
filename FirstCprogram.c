@@ -35,7 +35,7 @@ printf("width is :%d\n");
 printf("area of the rectangle is : %d", area);
 return 0;
 }
-*/
+
 
 // using data types to calculate the cost of different grocery items
 int main(){
@@ -125,4 +125,26 @@ else{
 }
 
 return 0;
+}*/
+
+#include <stdio.h>
+
+int main() {
+    int num, i;
+    unsigned long long factorial = 1;
+
+    printf("Enter a positive integer: ");
+    scanf("%d", &num);
+
+    // If the user enters a negative integer
+    if (num < 0) {
+        printf("Error! Factorial of a negative number doesn't exist.");
+    } else {
+        for (i = 1; i <= num; ++i) {
+            factorial *= i;
+        }
+        printf("Factorial of %d = %llu", num, factorial);
+    }
+
+    return 0;
 }
